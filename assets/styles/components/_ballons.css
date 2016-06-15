@@ -1,0 +1,34 @@
+/*=========================================================================
+02/I - BALLON
+=========================================================================*/
+
+@custom-selector :--ballons .ballon-bottom, .ballon-top;
+
+:--ballons {
+  background : white;
+  display    : block;
+  padding    : calc(var(--space-base)*2);
+  position   : relative;
+}
+
+:--ballons::after {
+  content      : "";
+  border-left  : 10px solid transparent;
+  border-right : 10px solid transparent;
+  left         : calc(50% - 10px);
+  position     : absolute;
+}
+
+.ballon-bottom::after {
+  border-bottom : 10px solid transparent;
+  border-top    : 10px solid white;
+  bottom        : 0;
+  margin-bottom : -20px;
+}
+
+.ballon-top::after {
+  border-bottom : 10px solid white;
+  border-top    : 10px solid transparent;
+  margin-top    : -20px;
+  top           : 0;
+}

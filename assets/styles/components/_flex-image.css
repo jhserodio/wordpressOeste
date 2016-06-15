@@ -1,0 +1,17 @@
+/*=========================================================================
+02/E - FLEX-image
+=========================================================================*/
+
+.flex-image {
+  height     : auto;
+  max-height : 100%;
+  max-width  : 100%;
+  position   : relative;
+  text-align : center;
+  width      : auto;
+}
+
+.flex-image img {
+  height    : auto;
+  max-width : 100%;
+}

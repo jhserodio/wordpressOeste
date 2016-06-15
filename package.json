@@ -1,0 +1,32 @@
+{
+  "name": "superoeste",
+  "version": "1.0.0",
+  "description": "superoeste site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jhserodio",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy-rex": "^1.2.5",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-watch": "^4.3.5",
+    "lost": "^6.7.2",
+    "postcss-calc": "^5.2.1",
+    "postcss-color-function": "^2.0.1",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-selectors": "^3.0.0",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-normalize": "^0.2.0",
+    "precss": "^1.4.0"
+  }
+}

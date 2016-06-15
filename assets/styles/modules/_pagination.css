@@ -1,0 +1,44 @@
+/*===============================================================
+03 - MODULES
+===============================================================*/
+
+.pagination {
+  width: 100%;
+  padding: var(--space-base) 0;
+  text-align: center;
+}
+
+.pagination li {
+  margin: calc(var(--space-base)/2);
+  display: inline-block;
+}
+
+.pagination li:first-child {
+  margin-left: 0;
+}
+
+.pagination li:last-child {
+    margin-right: 0;
+}
+
+.pagination a {
+  background: var(--gray-light);
+  padding: calc(var(--space-base)/2);
+  color: white;
+}
+
+.pagination a:hover {
+  background: var(--brand-base);
+}
+
+@media (--screen-small) {
+
+  .pagination a {
+    padding: 3px;
+  }
+
+  .pagination li {
+    margin: 3px;
+  }
+
+}

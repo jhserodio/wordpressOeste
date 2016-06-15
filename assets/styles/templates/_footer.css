@@ -1,0 +1,78 @@
+/*===============================================================
+05
+===============================================================*/
+
+.footer {
+  background: var(--brand-base);
+  lost-center: 100%;
+  color: white;
+  font-size: var(--size-small);
+  line-height: var(--line-base);
+}
+
+.footer-note {
+  margin: var(--space-base) 0;
+}
+
+.footer-note p {
+  margin: 0;
+  line-height: normal;
+}
+
+.footer-info {
+  margin: var(--space-base) 0;
+}
+
+.footer-info span {
+  display: block;
+  height: auto;
+  line-height: var(--line-large);
+}
+
+.footer-info address {
+  color: white;
+  font-style: normal;
+}
+
+.footer-info a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-info i {
+  padding: 0 2px;
+}
+
+@media (--screen-medium) {
+
+  .footer {
+    padding: calc(var(--space-large)*2) 0;
+  }
+
+  .footer-info {
+    lost-column: 3/4 4;
+  }
+
+  .footer-note {
+    lost-column: 1/4 4;
+  }
+
+  .footer-info span {
+    lost-waffle: 1/2 2;
+  }
+
+}
+
+@media (--screen-small) {
+
+  .footer-note {
+    margin: calc(var(--space-base)*3) 0;
+  }
+
+  .footer-info span {
+    margin: calc(var(--space-base)*2) 0;
+  }
+
+}

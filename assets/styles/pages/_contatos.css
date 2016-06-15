@@ -1,0 +1,42 @@
+/*===============================================================
+04
+===============================================================*/
+
+.so-contatos {
+  lost-center: 100%;
+  margin-bottom: 60px;
+}
+
+.contatos-info {
+  padding: calc(var(--space-base)*3);
+  box-sizing: border-box;
+  border: var(--border-base);
+  text-align: center;
+}
+
+.contatos-info span {
+  display: block;
+  margin: calc(var(--space-large)*2) 0;
+  line-height: var(--line-extra);
+}
+
+.contatos-info a {
+  color: var(--gray-base);
+  text-decoration: none;
+  display: block;
+}
+
+
+.contatos-form .form-control {
+  margin: calc(var(--space-base)*2) 0;
+}
+
+@media (--screen-medium) {
+
+  .contatos-form,
+  .contatos-info {
+    lost-column: 1/2 2;
+    height: 660px;
+  }
+
+}

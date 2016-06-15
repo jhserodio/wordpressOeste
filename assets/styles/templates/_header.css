@@ -1,0 +1,51 @@
+/*===============================================================
+05/A - HEADER
+===============================================================*/
+
+.header {
+  lost-center: 100%;
+  background: var(--brand-base);
+  max-width: 100%;
+  z-index: 99999;
+
+  /*provisorio*/
+  margin-top: -35px;
+}
+
+.header .btn-icon {
+  display: none;
+  height: 60px;
+  width: 60px;
+}
+
+@media (--screen-medium) {
+
+  .header .navegation-header {
+    width: auto;
+    float: right;
+  }
+
+}
+
+@media (--screen-small) {
+
+    .header {
+      height: 60px;
+
+      /*provisorio*/
+      margin-top: -46px;
+    }
+
+    .header .btn-icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: var(--icon-small);
+    }
+
+    .header .navegation-header {
+      display: none;
+    }
+
+}

@@ -1,0 +1,111 @@
+/*===============================================================
+01/A - VARIABLES
+===============================================================*/
+
+:root {
+
+/*COLORS VARIABLES*/
+
+  /*brand colors*/
+  --brand-base   : #ED1C25;
+  --brand-shadow : #BA161D;
+  --brand-light  : #DE7780;
+  --second-base  : #F0EC34;
+  --third-base   : #0B6AA0;
+
+  /*gray scale*/
+  --gray-base    : #888;
+  --gray-shadow  : #666;
+  --gray-dark    : #333;
+  --gray-light   : #bbb;
+  --gray-smooth  : #eee;
+
+  /*user colors*/
+  --red-alert     : #D6290F;
+  --ylw-warning   : #FBBE00;
+  --blue-info     : #3B55ED;
+  --green-success : #0FDE26;
+
+  /*opacity colors*/
+  --half-white  : rgba(255, 255, 255, 0.5);
+  --half-black  : rgba(0, 0, 0, 0.5);
+  --glass-white : rgba(255, 255, 255, 0.1);
+  --glass-black : rgba(0, 0, 0, 0.1);
+
+  /*variables color atribute*/
+  --color-default : var(--gray-base);
+  --color-light   : var(--gray-light);
+  --color-dark    : var(--gray-dark);
+  --color-link    : var(--third-base);
+
+/* MEASURE VARIABLES */
+
+  /*space definitions*/
+  --space-base  : 10px;
+  --space-large : 15px;
+  --space-small : 1px;
+
+  /*borders*/
+  --border-base  : 1px solid var(--gray-light);
+  --border-focus : 1px solid var(--gray-base);
+  --border-error : 1px solid var(--red-alert);
+  --radius-base  : 1px;
+  --shadow-base  : none;
+
+  /*screen units*/
+  --width-medium : 1140px;
+  --width-small  : 90%;
+  --total-width  : 100%;
+
+
+/*TEXT VARIABLES*/
+
+  --font-base   : Helvetica, sans-serif, Arial;
+  --weight-base : normal;
+  --weight-bold : bold;
+
+  /*size font*/
+  --size-default : 14px;
+  --size-base    : 1em;
+  --size-large   : 1.4em;
+  --size-extra   : 20px;
+  --size-small   : 0.8em;
+
+  /*font icons size*/
+  --icon-base     : 30px;
+  --icon-small    : 24px;
+  --icon-large    : 50px;
+
+  /*font spaces*/
+  --line-default : 24px;
+  --line-base    : 1em;
+  --line-large   : 1.4em;
+  --line-extra   : 2em;
+  --more-spacing : 0.1em;
+
+  /*effects*/
+  --transition-base: all 0.3s ease;
+
+/*CUSTOM SELECTORS*/
+
+
+  @custom-selector :--icons [class^="icon-"], [class*=" icon-"];
+
+  @custom-selector :--block article,  aside,  details,  figcaption,  figure,  footer,  header,  hgroup,
+                            main, menu,  nav,  section,  summary;
+
+  @custom-selector :--forms-txt input[type="text"], input[type="password"], input[type="search"],
+                                input[type="email"], input[type="file"], input[type="number"],
+                                input[type="tel"], input[type="date"], input[type="time"], textarea, select;
+
+  @custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+  @custom-selector :--bold strong, b;
+
+  @custom-selector :--list ul, ol;
+
+  @custom-selector :--btn button,  input[type="button"],  input[type="reset"],  input[type="submit"], .btn;
+
+  @custom-selector :--over :focus, :hover, :active;
+
+}

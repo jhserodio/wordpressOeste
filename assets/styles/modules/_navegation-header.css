@@ -1,0 +1,81 @@
+/*===============================================================
+03
+===============================================================*/
+
+.navegation-header {
+  z-index: 99999;
+}
+
+.navegation-header a {
+  color: white;
+  font-weight: var(--weight-bold);
+  letter: var(--more-spacing);
+  text-transform: uppercase;
+  font-size: var(--size-small);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navegation-header a:hover {
+  background: var(--brand-shadow);
+}
+
+.navegation-header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.navegation-header ul > li {
+  position: relative;
+}
+
+.navegation-header ul a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+}
+
+@media (--screen-medium) {
+
+  .navegation-header {
+    height: 60px;
+  }
+
+  .navegation-header ul > li {
+    line-height: 60px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+  }
+
+}
+
+@media (--screen-small) {
+
+  .navegation-header {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    background: var(--brand-base);
+  }
+
+  .navegation-header ul  {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+
+  .navegation-header ul > li {
+    width: 100%;
+  }
+
+  .navegation-header ul a {
+    padding: var(--space-base);
+  }
+
+}

@@ -1,0 +1,35 @@
+
+.home-info {
+  margin-bottom: calc(var(--space-base)*2) ;
+  lost-center: 100%;
+}
+
+.home-info p {
+  padding-left: 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.home-info i {
+  position: absolute;
+  font-size: var(--icon-large);
+  top: 20px;
+  left: 0;
+  color: var(--brand-base);
+}
+
+.home-info a {
+  float: right;
+}
+
+.home-news {
+  margin: calc(var(--space-base)*2) 0;
+}
+
+@media(--screen-medium) {
+
+  .so-home {
+    margin-bottom: 80px;
+  }
+
+}

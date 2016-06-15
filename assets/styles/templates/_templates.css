@@ -1,0 +1,21 @@
+/*===============================================================
+05 - TEMPLATES
+===============================================================*/
+
+/* 05/A CONTAINER */
+@import 'container';
+
+/* 05/B HEADER */
+@import 'header';
+
+/* 05/C FOOTER */
+@import 'footer';
+
+/* 05/D MAIN */
+@import 'main';
+
+/* 05/E CONTENT */
+@import 'content';
+
+/* 05/F SIDEBAR */
+@import 'sidebar';

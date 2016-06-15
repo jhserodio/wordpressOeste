@@ -1,0 +1,30 @@
+/*===============================================================
+01/F - LISTS
+===============================================================*/
+
+:--list {
+  color: var(--color-default);
+  padding-left: var(--space-large);
+}
+
+:--list :--list {
+  margin: var(--space-large) 0;
+}
+
+:--list li {
+  line-height: var(--line-large);
+}
+
+dl {
+  line-height: var(--line-large);
+  font-size: var(--size-base);
+  font-size: var(--size-small);
+}
+
+dt {
+  margin: var(--space-base) 0;
+}
+
+dd {
+  margin: var(--space-base) calc(var(--space-large)*2);
+}

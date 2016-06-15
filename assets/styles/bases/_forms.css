@@ -1,0 +1,61 @@
+/*===============================================================
+01/E - FORMS
+===============================================================*/
+
+fieldset {
+  background: none;
+  border: var(--border-base);
+  outline: 0;
+  margin: 0;
+  padding: calc(var(--space-base)*3);
+}
+
+
+legend {
+  display: block;
+  color: var(--color-default);
+  margin-top: 20px;
+  font-size: var(--size-large);
+  font-weight: var(--weight-bold);
+  text-align: left;
+}
+
+label {
+  display: block;
+  color: var(--brand-base);
+  margin: var(--space-small) 0;
+  font-size: var(--size-small);
+  font-weight: var(--weight-bold);
+  text-align: left;
+}
+
+:--forms-txt {
+  background: none;
+  border: 0;
+  border-bottom: var(--border-base);
+  border-radius: var(--radius-base);
+  box-shadow: none;
+  box-sizing: border-box;
+  color: var(--color-default);
+  padding: calc(var(--space-base)/2);
+  font-size: var(--size-base);
+  margin: calc(var(--space-base)/2) 0;
+  transition: var(--transition-base);
+}
+
+:--forms-txt:--over {
+  border-bottom: var(--border-focus);
+  box-shadow: var(--shadow-base);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  height: 105px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: calc(var(--space-base)/2);
+}

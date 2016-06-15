@@ -1,0 +1,8 @@
+/*===============================================================
+01/C - GRID-SETTING
+===============================================================*/
+
+@custom-media --screen-small   (width < 780px);
+@custom-media --screen-medium  (width >= 780px);
+
+@lost gutter 25px;

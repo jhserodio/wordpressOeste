@@ -1,0 +1,18 @@
+/*===============================================================
+04 - PAGES
+===============================================================*/
+
+/* 05/A INICIO */
+@import 'inicio';
+
+/* 05/B INSTITUCIONAL */
+@import 'institucional';
+
+/* 05/C OFERTAS */
+@import 'ofertas';
+
+/* 05/D NOTICIAS */
+@import 'noticias';
+
+/* 05/E CONTATOS */
+@import 'contatos';

@@ -1,0 +1,41 @@
+/*===============================================================
+05
+===============================================================*/
+
+.sidebar {
+  lost-column: 1/4 4 calc(var(--space-large)*2);
+}
+
+.sidebar-item {
+  margin: calc(var(--space-base)*4) 0;
+}
+
+.sidebar-list {
+  background: var(--gray-smooth);
+  padding: calc(var(--space-base)*2);
+  list-style: none;
+}
+
+.sidebar-list li {
+  margin: calc(var(--space-base)/2) 0;
+}
+
+.sidebar-list li::before {
+  content: "- ";
+  color: var(--gray-base);
+}
+
+.sidebar-list a {
+  color: var(--gray-base);
+  text-decoration: none;
+}
+
+.sidebar-list a:hover {
+  color: var(--brand-light);
+}
+
+@media (--screen-small) {
+  .sidebar {
+    display: none;
+  }
+}
